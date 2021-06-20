@@ -1,0 +1,49 @@
+.outer-conainter {
+    height: 600px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    /* border: solid 1px green; */
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    box-shadow: 2px 2px 10px #404040;
+    /* border: solid 1px red; */
+}
+.container svg {
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+
+    fill: rgb(255, 255, 255);
+    border: solid 3px #1d3557;
+    background-color: #fff;
+}
+
+.container svg .arc {
+    /* stroke: #; */
+    fill: none;
+}
+
+.container svg .text {
+    stroke: none;
+    fill: #404040;
+    stroke-width: none;
+}
+
+.container svg .radial-line {
+    stroke: rgba(255, 0, 110, 0.5);
+    /* fill: #FEC4DB; */
+}
+
+.container svg .radial-line-dark {
+    stroke: #ddd;
+    /* rgba(110, 110, 110, 0.5); */
+    /* fill: #FEC4DB; */
+}
